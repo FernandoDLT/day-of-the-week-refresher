@@ -1,0 +1,32 @@
+/* * {
+  box-sizing: border-box;
+}
+h1, h2, form {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+}
+
+::placeholder {
+  color: lightslategray;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, form {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+}
+
+::placeholder {
+  color: lightgray;
+}
