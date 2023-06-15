@@ -2,6 +2,7 @@ document.querySelector('#check').addEventListener('click', check)
 
 function check() {
     const day = document.querySelector('#day').value.toLowerCase()
+    
     if (day === 'tuesday' || day === 'thursday') {
         message = 'You have class today'; 
     } else if (day === 'saturday' || day === 'sunday') {

@@ -24,7 +24,19 @@ h1, h2, form {
 
 button {
   display: block;
-  margin: 20px auto;
+  margin: 30px auto;
+  color: black;
+  width: 200px;
+  height: 40px;
+  border: 2px solid rgb(167, 161, 161);
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+  border: none;
+  background-color: rgb(25, 122, 212);
 }
 
 ::placeholder {
